@@ -34,3 +34,4 @@ const startServer = async () => {
     console.log(`error connecting connecting to redis`, error);
   }
 };
+startServer();
